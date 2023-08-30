@@ -1,0 +1,25 @@
+/* colors */
+:root{ 
+    --color-negative: #292828; 
+    --color-zero: #fff;
+    --color-first: #063940;
+    --color-second: #3E838C;
+    --color-third: #8EBDB6;
+    --color-fifth: #BDD1DE;
+    --color-sixth: #ECE1C3;
+}
+
+
+/* chamando o variavel criada */
+.bg-header-blue {
+    background-color: var(--color-first);
+}
+
+.text-header {
+    color: var(--color-sixth);
+}
+
+.bg-introduction-blue{
+    background-color: var(--color-second);
+}
+

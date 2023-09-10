@@ -23,3 +23,30 @@
     background-color: var(--color-second);
 }
 
+.bg-about-blue{
+    background-color: var(--color-third);
+}
+
+.bg-impacts-blue{
+    background-color: var(--color-second);
+}
+
+.bg-solution-blue{
+    background-color: var(--color-third);
+}
+
+.bg-arduino-blue{
+    background-color: var(--color-second);
+}
+
+.bg-arduino-ciano{
+    background-color: var(--color-fifth);
+}
+
+.bg-app-blue{
+    background-color: var(--color-third);
+}
+
+.bg-footer-blue{
+    background-color: var(--color-third);
+}

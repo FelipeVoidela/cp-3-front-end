@@ -1,3 +1,82 @@
-header img{
-    width: 90px;
+body {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header img {
+    width: 68px;
+}
+
+
+.hover-link {
+    color: #ECE1C3;
+    text-decoration: none;
+    font-size: var(--font-text);
+    position: relative;
+}
+
+.hover-link::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #ECE1C3;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: width .5s;
+}
+
+.hover-link:hover::before {
+    width: 100%;
+}
+
+.responsive-img img {
+    height: 600px;
+}
+
+.about{
+    height: 80vh;
+}
+
+
+.cloud{
+    background-image: url(../images/bg-images/cloud-about.png);
+    background-size: 100% 100%;
+}
+
+.hand-up img {
+    height: 35vh;
+}
+
+.problem{
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.8)) ,url(../images/bg-images/problema-img.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+.img-impacts img{
+    height: 40%;
+    width: 40%;
+}
+
+.img-solution img {
+    height: 30%;
+    width: 30%;
+}
+
+.img-arduino img {
+    width: 40%;
+}
+
+.img-mobile img {
+    width: 70%;
+    height: 90%;
+}
+
+.footer {
+    background-image: url(../images/bg-images/wave.svg);
+    width: 100vw;
+    height: 30vh;
 }

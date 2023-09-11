@@ -8,7 +8,6 @@ header img {
     width: 68px;
 }
 
-
 .hover-link {
     color: #ECE1C3;
     text-decoration: none;
@@ -35,12 +34,12 @@ header img {
     height: 600px;
 }
 
-.about{
+.about {
     height: 80vh;
 }
 
 
-.cloud{
+.cloud {
     background-image: url(../images/bg-images/cloud-about.png);
     background-size: 100% 100%;
 }
@@ -49,14 +48,14 @@ header img {
     height: 35vh;
 }
 
-.problem{
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.8)) ,url(../images/bg-images/problema-img.png);
+.problem {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)), url(../images/bg-images/problema-img.png);
     background-attachment: fixed;
     background-size: cover;
     height: 80vh;
 }
 
-.img-impacts img{
+.img-impacts img {
     height: 40%;
     width: 40%;
 }
@@ -64,6 +63,34 @@ header img {
 .img-solution img {
     height: 30%;
     width: 30%;
+}
+
+.arrow {
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-negative);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pointer {
+    border: solid;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.arrow-right {
+    transform: rotate(-45deg);
+}
+
+.double-arrow {
+    justify-content: space-between;
+}
+
+.arrow-left {
+    transform: rotate(135deg);
 }
 
 .img-arduino img {
@@ -75,8 +102,13 @@ header img {
     height: 90%;
 }
 
-.footer {
-    background-image: url(../images/bg-images/wave.svg);
-    width: 100vw;
-    height: 30vh;
+
+@media (max-width: 1000px) {
+    .arrow {
+        display: none;
+    }
+
+    .pointer {
+        display: none;
+    }
 }

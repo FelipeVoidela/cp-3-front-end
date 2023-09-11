@@ -105,21 +105,23 @@
         <img src="./assets/images/icons/impacts-icon2.png" alt="ícone fumaça" class="bg-light rounded-5">
       </div>
       <div class="col-md-9 col-sm-12 d-flex align-items-center">
-        <p class="text-start fs-5">O gás CO é liberado pela queima de combustíveis fósseis. Esse gás interage e se liga às hemácias do sangue
+        <p class="text-start fs-5">O gás CO é liberado pela queima de combustíveis fósseis. Esse gás interage e se liga
+          às hemácias do sangue
           com mais afinidade do que o oxigênio, impedindo a ligação desse importante componente com as hemácias, gerando
           prejuízo a saúde ou até mesmo a morte por intoxicação.
           Por ser um gás de efeito estufa, sua alta concentração contribuí para o aquecimento global. </p>
       </div>
       <h2 class="d-flex justify-content-center fs-1">Como a solução mitiga isso</h2>
       <div class="col-md-9 col-sm-12 d-flex align-items-center">
-        <p class="text-end fs-5">Com a implementação da nossa aplicação, a população terá acesso rápido e prático as informações sobre a
+        <p class="text-end fs-5">Com a implementação da nossa aplicação, a população terá acesso rápido e prático as
+          informações sobre a
           qualidade do ar em uma determinada área. Assim, evitariam tais locais devido ao excesso de gases prejudiciais
           à saude.</p>
       </div>
       <div class="col-md-2 col-sm-12 img-fluid img-impacts m-5">
         <img src="./assets/images/icons/impacts-icon1.png" alt="ícone ideia" class="bg-light rounded-5">
       </div>
-      
+
     </section>
 
     <!--Solução-->
@@ -131,14 +133,17 @@
       </div>
       <div class="col-md-2 col-sm-12 fs-5">
         <p class="text-center">Envio das leituras para o banco de dados</p>
-          <i class="bi bi-arrow-right d-flex justify-content-center"></i>
+        <div class="arrow"><i class="pointer arrow-right"></i></div>
       </div>
       <div class="col-md-2 col-sm-12 img-solution img-fluid d-flex justify-content-center">
         <img src="./assets/images/icons/database-icon.png" alt="Banco de dados" class="bg-light rounded-5">
       </div>
       <div class="col-md-2  col-sm-12 fs-5">
         <p class="text-center">Envio e recebimento de informações para o banco de dados</p>
-        <i class="bi bi-arrow-left-right d-flex justify-content-center"></i>
+        <div class="arrow double-arrow">
+          <i class="pointer arrow-left"></i>
+          <i class="pointer arrow-right"></i>
+        </div>
       </div>
       <div class="col-md-3  col-sm-12 d-flex align-items-center flex-column img-solution img-fluid fs-5">
         <img src="./assets/images/icons/android.png" alt="android icon" class="bg-light rounded-5">
@@ -152,7 +157,8 @@
 
       <div class="row bg-arduino-blue d-flex align-items-center">
         <div class="col-md-9 col-sm-12">
-          <p class="text-start fs-3">O Arduino UNO é a peça principal do projeto, responsavel por conectar todos os componentes.</p>
+          <p class="text-start fs-3">O Arduino UNO é a peça principal do projeto, responsavel por conectar todos os
+            componentes.</p>
         </div>
         <div class="col-md-3 col-sm-12 img-fluid img-arduino d-flex justify-content-center">
           <img src="./assets/images/arduino/arduino.png" alt="arduino">
@@ -161,7 +167,8 @@
 
       <div class="row bg-arduino-ciano d-flex align-items-center">
         <div class="col-md-9 col-sm-12">
-          <p class="text-start fs-3">O sensor MQ-135 é responsável por medir a quantidade de gases poluentes presentes no ar.</p>
+          <p class="text-start fs-3">O sensor MQ-135 é responsável por medir a quantidade de gases poluentes presentes
+            no ar.</p>
         </div>
         <div class="col-md-3 col-sm-12 img-fluid img-arduino d-flex justify-content-center">
           <img src="./assets/images/arduino/mq-135.png" alt="MQ-135">
@@ -170,7 +177,8 @@
 
       <div class="row bg-arduino-blue d-flex align-items-center">
         <div class="col-md-9 col-sm-12">
-          <p class="text-start fs-3">O sensor NEO 6M é responsável por informar a sua localização obtida a partir de diversos satélites.</p>
+          <p class="text-start fs-3">O sensor NEO 6M é responsável por informar a sua localização obtida a partir de
+            diversos satélites.</p>
         </div>
         <div class="col-md-3 col-sm-12 img-fluid img-arduino d-flex justify-content-center">
           <img src="./assets/images/arduino/neom6.png" alt="NEO 6M">
@@ -179,7 +187,8 @@
 
       <div class="row bg-arduino-ciano d-flex align-items-center">
         <div class="col-md-9 col-sm-12">
-          <p class="text-start fs-3">O sensor ESP-01 é responsável por conectar o Arduino internet e, assim, enviar os dados para um banco de dados.</p>
+          <p class="text-start fs-3">O sensor ESP-01 é responsável por conectar o Arduino internet e, assim, enviar os
+            dados para um banco de dados.</p>
         </div>
         <div class="col-md-3 col-sm-12 img-fluid img-arduino d-flex justify-content-center">
           <img src="./assets/images/arduino/esp01.png" alt="ESP-01">
@@ -195,22 +204,16 @@
         </div>
       </div>
 
-      
-
-      
-
-
-
-
     </section>
-
     <!--Aplicativo-->
     <section class="row bg-app-blue">
       <div class="row col-md-6 col-sm-12 justify-content-center">
         <div class="col-md-6 col-sm-12 d-flex align-items-start flex-column justify-content-center">
           <h2 class="fs-1">Aplicativo</h2>
-          <p class="text-star fs-5">A aplicação conta com um aplicativo que mostra, em tempo real, a qualidade do ar de acordo com os testes realizados  pelo arduino  e o  número de reportes que aquela área recebeu. Ademais, conta com recomendações sobre permanência e conduta nas áreas analisadas.</p>
-          <p class="text-star fs-5">Toda camada de cadastro, login e visualização  será feita no aplicativo.</p>
+          <p class="text-star fs-5">A aplicação conta com um aplicativo que mostra, em tempo real, a qualidade do ar de
+            acordo com os testes realizados pelo arduino e o número de reportes que aquela área recebeu. Ademais, conta
+            com recomendações sobre permanência e conduta nas áreas analisadas.</p>
+          <p class="text-star fs-5">Toda camada de cadastro, login e visualização será feita no aplicativo.</p>
         </div>
       </div>
       <div class="col-md-6 col-sm-12 img-mobile img-fluid">

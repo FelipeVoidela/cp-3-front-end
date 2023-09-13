@@ -1,0 +1,17 @@
+:root{
+    --font-title: 4vmin;
+    --font-title-small: 3vmin;  
+    --font-text: 2.5vmin;
+}
+
+.fts-title {
+    font-size: var(--font-title) !important
+}
+
+.fts-s {
+    font-size: var(--font-title-small) !important
+}
+
+.fts-text {
+    font-size: var(--font-text) !important
+}

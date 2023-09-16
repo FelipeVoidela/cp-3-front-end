@@ -1,6 +1,6 @@
 body {
     font-family: 'Heebo', sans-serif;
-    
+
 }
 
 nav img {
@@ -60,9 +60,15 @@ nav img {
     width: 40%;
 }
 
-.img-solution img {
-    height: 30%;
-    width: 30%;
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.icon img {
+    width: 65%;
+    height: 70px;
 }
 
 .arrow {
@@ -112,3 +118,8 @@ nav img {
     }
 }
 
+@media (max-width: 820) {
+    .responsive-img-arduino {
+        width: 200px;
+    }
+}
